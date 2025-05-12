@@ -1,1 +1,10 @@
+[package]
+name = "kafka-consumer-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tracing-subscriber = "0.3.19"
+openssl = { version = "0.10.45", features = ["vendored"] }
+kafka = "0.10.0"
 
